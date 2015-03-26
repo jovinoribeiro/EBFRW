@@ -1,0 +1,166 @@
+﻿.tcell
+{
+  text-align:center;  
+   font: Georgia, "Time New Roman", Times, serif;
+ color: #443266;   
+  background-color: white; 
+  font-weight:bold;
+  width:15;
+}
+
+.tddark
+{
+ font: Georgia, "Time New Roman", Times, serif;
+ color: #443266;   
+  background-color: white; 
+  font-weight:bold;
+}
+.tdlight
+{
+ font: Georgia, "Time New Roman", Times, serif;
+ color: #443266;   
+ background-color:  #C3C3E5;    
+ font-weight:bold;
+}
+.gentext
+{
+ font: Georgia, "Time New Roman", Times, serif;
+ color: #443266;   
+}
+/* format text for missing user inputs */
+.failure
+{
+    font: 15px Georgia, "Time New roman", Times, serif;
+    font-weight:bold;
+    color:Red;
+}
+/* header around boxes...i.e. Event Details, etc*/
+.titles
+{
+ color:#443266;/*#9C1C6B; */;
+font: italic 20px Georgia, "Times New Roman", Times, serif;
+font-weight:bold;
+padding-left:5px;
+margin: 0 auto;
+}
+/* Body - Big box around fields*/
+.ebsignup
+{
+font: 120px Georgia, "Times New Roman", Times, serif;
+background-color: #443266; /* #097054; /* #CA278C; */
+}
+/* body of form */
+.ebsignupbody
+{
+    background-color: #C3C3E5; /* #097054; /* #CA278C; */
+}
+
+/* box around fields */
+.content, .contentA {
+padding:15px 10px 0px 20px;
+line-height: 30px;
+list-style: none;
+
+margin: 0 auto; 
+margin-bottom: 2px;
+
+background-color:none;
+display:block;
+min-height:32px;
+border-width: 2px;
+padding:5px 5px 5px 5px;
+
+background: #F1F0FF; /*#FFE9E8;/*#D0E8F4;;/*#9CC7F2;*/
+/* background: rgba(255,255,255,.3); */
+
+border-color: #443266;/*#9C1C6B; */
+border-style: solid;
+border-width: 2px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+/* Box around elements */
+.row {
+background-color:none;
+min-height:32px;
+border-width: 2px;
+padding:1px 1px 1px 1px;
+
+line-height: 30px;
+list-style: none;
+padding: 5px 10px;
+margin-bottom: 2px;
+}
+.rowbig {
+background-color:none;
+min-height:32px;
+border-width: 2px;
+padding:1px 1px 1px 1px;
+
+line-height: 30px;
+list-style: none;
+padding: 5px 10px;
+margin-bottom: 2px;
+    height: 145px;
+    width: 765px;
+}
+.left{
+width:150px;
+float:left;
+padding:7px 0px 0px 7px;
+min-height:24px;
+font: italic 13px Georgia, "Times New Roman", Times, serif;
+color:#443266;
+}
+.donation{
+float:left;
+padding:7px 0px 0px 7px;
+min-height:24px;
+font: italic 13px Georgia, "Times New Roman", Times, serif;
+color:#443266;
+}
+.right{
+width:638px;
+float:left;
+padding:7px 0px 0px 7px;
+min-height:24px;
+}
+.rightbig{
+width:510px;
+float:left;
+padding:7px 0px 0px 7px;
+min-height:24px;
+}
+.navheader
+{
+    font: italic 35px Georgia, "Times New Roman", Times, serif;
+    background-color: red;
+}
+.text{
+width:350px;/*190px;*/
+}
+.over{
+background-color:  #d6e5f4;/* #FA58AC;/* #FFFF66;/*#e6e2af;*/
+}
+.out{
+background-color:none;
+}
+table, th
+{
+    border:0px solid black;
+    margin-top: 0px;
+}
+.activeField
+{
+background-image: none;
+background-color: #CC99CC;/*red;/*#ffffff; */
+border: solid 1px #33677F;
+}
+.idle
+{
+border: solid 1px #85b1de;
+background-image: url( 'blue_bg.png' );
+background-repeat: repeat-x;
+background-position: top;
+} 

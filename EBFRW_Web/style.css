@@ -1,0 +1,311 @@
+/*
+	99Lime.com HTML KickStart by Joshua Gatcke
+	style.css
+	
+*/
+
+/*---------------------------------
+	IMPORTS
+-----------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+/*---------------------------------
+	OVERRIDES
+-----------------------------------*/
+h1,h2,h3,h4,h5,h6{
+font-family: "Arimo", arial, verdana, sans-serif;
+font-weight:normal;
+}
+
+thead th,
+tbody th{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+body 
+{
+    background-color:Red;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+.menu{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+blockquote{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+/* ADDED BY ME */
+
+th span {
+color:green;
+font-family:"Arimo", arial, verdana, sans-serif;
+font-size:15px;
+}
+
+#ebfrwheader {
+	font-family:'Shojumaru', cursive;
+	font-size:30px;
+	color:white;#732c7b: ;
+}
+
+#contact_label {
+	font-family:'Shojumaru', cursive;
+	font-size:40px;
+	width:200px;
+	color:#black;9E3B33;
+}
+
+#message {
+	width:600px;
+}
+
+
+#pricetable {
+	padding:15px;
+	spacing:15px;
+	border:1px;
+}
+
+#pricetable th {
+font-family:'Shojumaru', cursive; 
+font-size:25px;
+color:pink;
+spacing:0.5em 1em;
+padding: 5px 0;
+cellspacing:10px;
+margin: -10px 0 1px 0;
+}
+
+#mycolor {
+background:purple;
+}
+
+#flag {
+background-image:url('flag.jpg');
+}
+
+#yellowgradiant {
+background: rgb(255,255,136); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,136,1) 0%, rgba(255,255,136,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,136,1)), color-stop(100%,rgba(255,255,136,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,136,1) 0%,rgba(255,255,136,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,136,1) 0%,rgba(255,255,136,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,136,1) 0%,rgba(255,255,136,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,136,1) 0%,rgba(255,255,136,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=0 ); /* IE6-9 */
+
+}
+
+#orangegradiant {
+background: rgb(241,231,103); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(241,231,103,1)), color-stop(100%,rgba(254,182,69,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+
+}
+
+#bluegradiant {
+background: rgb(240,249,255); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(240,249,255,1)), color-stop(47%,rgba(203,235,255,1)), color-stop(100%,rgba(161,219,255,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.9;
+      color:#FFCC00;
+      }
+
+.aaddborder {
+	/*border:1px solid lightblue;
+	background:white;*/
+	  margin: 5px 5px;
+	  padding: 5px;
+	  background: #FFD92F;
+	  border-radius: 10px;
+	  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	  -moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+	  box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+	  position: relative;
+  	z-index: 90;
+}
+
+.jpurple {
+	background:purple;
+}
+
+
+
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+body{
+margin:0;
+padding:0 0 0 0;
+color:#000;
+/*background:#efefef url(css/img/gray_jean.png);*/
+background:#efefef url(http://ellislab.com/asset/css/img/masthead-pat.gif);
+
+font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
+text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
+}
+
+#wrap{
+width:100%;
+background:#fff;
+margin:30px auto 30px auto;
+padding:0 2%;
+border:1px solid #ccc;
+}
+
+
+#footer{
+text-align:center;
+padding:20px;
+margin:0;
+border-top:1px solid #ddd;
+color:#999;
+font-size:0.8em;
+text-shadow:0px 1px 1px #fff;
+position: relative;
+top:0;
+left:0;
+background:#fff ;
+}
+
+	#link-top{
+	display:none;
+	}
+	
+/* NAV BAR*/
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width: 100%;
+background:blue;/*#000;*/
+color:red;/*#fff;*/
+z-index:1000;
+}
+
+	.navbar #logo{
+	position:absolute;
+	top:0;
+	right:0;
+	padding:0.5em 1em;
+	font-size: 1.7em;
+	color:#efefef;
+	text-decoration:none;
+	}
+	
+	.navbar span{
+	color:#86dc00;
+	}
+	
+	
+	.navbar ul{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	}
+	
+		.navbar li{
+		margin:0;
+		padding:0;
+		list-style-type:0;
+		display:inline-block;
+		}
+		
+		.navbar li a{
+		display:inline-block;
+		color:#efefef;
+		padding:1em 1.3em;
+		text-decoration:none;
+		text-transform: uppercase;
+		line-height:100%;
+		font-size: 1.2em;
+		}
+		
+.callout{
+/*background:#4D99E0;#000099;#EEDB00;#FF9C00;#b1e0ec;#AA0078;#45631F;#E6BD1C;#0B246B;#c94e36; #FFFC19; #FFD92F;#eb8638; #4598ef;/*#86dc00;*/
+background: #4D99E0 url('http://www.99lime.com/site/templates/css/img/gplaypattern.png') repeat;
+/*background-image:url('http://www.99lime.com/site/templates/css/img/gplaypattern.png') repeat;*/
+padding:1em 0;
+color:white;#FFCC00;#E83C95;#FF0000; #B51212;/*#fff;*/
+box-shadow:inset 0px 0px 10px rgba(0,0,0,0.2);
+text-align: center;
+text-shadow:0px 1px 3px rgba(0,0,0,0.2);
+display:block;
+}
+	.callout + div.grid{margin-top:50px;}
+	 a.callout{cursor:pointer;}
+	 .callout i.icon-4x{font-size:6em;}
+	 .callout h4{margin-bottom:30px;}
+	 .callout-top{margin:10px 0 0 0;}
+	 .callout p{margin-bottom:0;}
+	 .callout .button{margin-top:10px;}
+	 .callout.green{background:#19ad0b;/*#86dc00;*/}
+
+.callouttop {
+	background:orange;
+	/*background-image:url('http://ellislab.com/asset/css/img/main-nav-linen.gif');*/
+	/*background-image:url('http://www.djavupixel.com/wp-content/uploads/2010/09/Pink-Background-640x960.jpg');*/
+	padding:0.5em 10px;
+	text-align:right;	
+}
+
+.calloutext1 {
+background:#BDD8DA;
+color:black
+}
+
+.calloutext2 {
+background:#DFEFF0;
+color:black;
+}
+
+.calloutorange {
+
+}
+	 
+#mc_embed_signup{
+padding:30px 0;
+}
+
+#ui-preview{
+border:5px solid #ddd;
+margin:30px 0;
+display:block;
+}
+
+#slideShowDiv {
+	
+	
+}

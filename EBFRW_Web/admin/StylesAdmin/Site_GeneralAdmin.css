@@ -1,0 +1,303 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+a:link, a:visited
+{
+    color: #034af3; 
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color:#034af3; 
+}
+
+p
+{
+    margin-bottom: 10px;/*10px;*/ 
+    line-height:1.6em; /* 1.6em; */
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h4, h5, h6
+{
+    font-size: 1.5em;
+    color:  #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h3
+{
+    font-size: 1.5em;
+    color:  #666666;
+    /*font-variant: small-caps;*/
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/* h3
+{
+    font-size: 1.2em;
+} */
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5
+{
+    font-size: 1em;
+    color: #666666;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+.main
+{
+    padding: 0px 0px 0px 0px; /* 0px 12px; */
+    margin:  0px 8px 8px 8px;/*12px 8px 8px 8px;*/
+    min-height: 120px; /* 420px; */
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px; 
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset.membership
+{
+    display: inline; /*block;*/
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.textEntryJr 
+{
+    border: 1px solid #ccc;
+}
+
+input.textEntryForm
+{
+    border: 1px solid #ccc;
+    width:300px;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+div.membershipInfo
+{
+    width:  auto; /*100%; /*42%;*/
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display:  block;
+    text-align: right;
+    padding: 5px;/*10px;*/
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+    height: 29px;
+    margin-top: 5px;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.submitButtonMembership
+{
+    text-align: center;
+    padding-right: 10px;
+}
+
+
+/*
+---------JOVINO ----------------*/
+
+.pj
+{
+    margin: 10px; 
+}
+
+div#test{
+background: url(/img/img1.jpg) no-repeat;
+    font-size: 1.2em;
+    color: orange;
+height: 44px;
+width: 380px;
+} 
+
+div#testtext {
+    position: relative;
+    height: 30px;
+    width: 307px;
+    left: 62px;
+    top: 118px;
+        font-size: 1.2em;
+    color: red;
+}
+
+.mycols 
+{
+    position: relative;
+    left: 554px;
+    top: 27px;
+    width: 312px;
+}
+
+.validation
+{
+    color: Red;
+}
+
+/* ------------------ */

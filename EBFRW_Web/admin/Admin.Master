@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="EBFRW_Web.admin.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="Site_General.css" rel="stylesheet" type="text/css" />
+   <link href="UserFormatChoice4.css" rel="stylesheet" type="text/css" />
+   
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+         <form id="master" runat="server">
+    <div class="page">
+
+        <div class="header">
+            <!-- <div id="test"><div id="testtext">East Bay Front Runners and Walkers</div></div> -->
+            <div>
+                                <asp:Image ID="lake" ImageUrl="/img/header.gif" runat="server" 
+                    Height="100px" Width="960px"/> 
+            </div>
+            <div class="title" border-width="1px"><h1>EBFRW - ADMIN TOOL</h1></div>
+       
+                       
+
+           <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/Default.aspx"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div> 
+            <div class="clear hideSkiplink">
+                <asp:Menu  ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <StaticSelectedStyle  BackColor="Yellow"/>
+
+                   
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="MembersEditor.aspx" Text="Members"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="RegistrationOrderEditor.aspx" Text="Registrations"></asp:MenuItem>
+                        
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+
+  
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+       </div>
+       <div class=main1">
+       
+       </div>
+
+    <div class="footer">
+        Copyright East Bay Front Runners and Walkers. All rights reserved.
+    </div>
+    </form>
+        
+</body>
+</html>

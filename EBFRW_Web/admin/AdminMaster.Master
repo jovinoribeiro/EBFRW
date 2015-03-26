@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="EBFRW_Web.admin.AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head" runat="server">
+    <title></title>
+    <link href="StylesAdmin/Site_GeneralAdmin.css" rel="stylesheet" type="text/css" />
+   <link href="StylesAdmin/UserFormatChoiceAdmin.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+         <form id="master" runat="server">
+    <div class="page">
+
+        <div class="header">
+            <!-- <div id="test"><div id="testtext">East Bay Front Runners and Walkers</div></div> -->
+            <div>
+                                
+            </div>
+            <div class="title" border-width="1px"><h1>EBFRW - Admin Tool</h1></div>
+       
+                       
+
+                   <!--asp:MenuItem NavigateUrl="~/admin/PrideRunOrders.aspx" Text="Pride Registration" -->
+
+            <div class="clear hideSkiplink">
+                <asp:Menu  ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <StaticSelectedStyle  BackColor="Yellow"/>
+
+                    <Items>
+                        <asp:MenuItem NavigateUrl="OrderProcessing.aspx" Text="Membership Registration" />
+                        
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+
+  
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+
+                    
+        </div>
+       
+       </div>
+
+
+    <div class="footer">
+        Copyright East Bay Front Runners and Walkers. All rights reserved.
+    </div>
+    </form>
+        
+</body>
+</html>

@@ -1,0 +1,105 @@
+﻿/* DEFAULT JOVINO */
+/*#1-jov - Text under "EAST BAY FRONT RUNNERS"*/
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #AA0078; /*#f0419d;/*good one#AA0078;/*#000066;/*#6600CC; /*#FFFFBE;/* #003366;/*#FF5B00;/*#EB9800;/*red;here #4b6c9e; */
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+
+/*#2-jov - Text "EAST BAY FRONT RUNNERS */
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color:#F1F0FF; /*#262600;/*blue; /*here #f9f9f9; */
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+/*#3-jov - color around menus */
+div.hideSkiplink
+{
+    background-color: #03246f; /*good one#3a4f63; /*#4b6c9e;/*#FFFFCC; /*#003366;/*#FFCC00; /*#C3C3E5;/*#BDBB55;/*yellow; /* jr #3a4f63;*/
+    width:100%;
+}
+
+/*#4-jov color of actual menus and text o menus */
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #bdd0dd; /*#465c71;/*#465c71;/*#F1F0FF; /*Lime;/*#465c71;*/ /*color of menu*/
+    border: 1px #4e667d solid;
+    color:  #03246f; /*#fbbc00; /*#03246f; /* good one #dde4ec;/*#dde4ec;*/ /*text of menus */
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+}
+    /*#5 these 2 are dependent of #6 */
+    /* text as you "hover" over menu */
+    div.menu ul li a:hover
+    {
+    background-color: #03246f; /* good one#bfcbd6; /*#bfcbd6;*/
+    color: #fbbc00; /*White; /* good one#465c71; /* #465c71; */
+    text-decoration: none;
+    }
+    
+    /*#6 text as you select a menu */
+    div.menu ul li a:active
+    {
+    background-color:  #465c71;
+    color: #cfdbe6;/* #FF0000; /*#cfdbe6; */
+    text-decoration: none;
+    }
+
+/*#7-jov - around main table and text on main areas*/
+body   
+{
+    background: #F1F0FF; /*#FFF187;/*green; here #b6b7bc;*/
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: black; /*here #696969; */
+}
+
+/*#8-jov - title before paragraphs*/
+h6
+{
+    font-size: 1.4em;
+    color:  #AA0078;/*#443366;/*#ff0000;/*red;/*#262600;/*#4b6c9e; */
+    font-weight: 600;
+}
+
+/*#8-jov - title before paragraphs*/
+h3
+{
+    font-size: 1.4em;
+    color:  #AA0078;/*#443366;/*#ff0000;/*red;/*#262600;/*#4b6c9e; */
+    font-weight: 600;
+}
+
+/*#9-jov - white area in all pages where stuff is typed and displayed*/
+.page
+{
+    width: 1500px;
+    background-color:#fff;/* #FFFF66;/*Purple;/*#fff; /* #BDBB55; /* Gray; /*here #fff; */
+    margin: 2px 2px 2px 2px;
+    border: 1px solid #496077;
+}
+
+
+
+
+
+
+
