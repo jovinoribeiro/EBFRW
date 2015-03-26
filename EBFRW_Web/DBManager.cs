@@ -9,7 +9,7 @@ using System.Data.Odbc;
 /// Summary description for DBManager
 public class DBManager
 {
-    private bool productionMode = false;
+    private bool productionMode = true;
 
     private OdbcConnection odbcCon;
     private OdbcCommand odbcCommand;
