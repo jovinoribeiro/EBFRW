@@ -213,3 +213,18 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#####
+##EBFRW
+######
+uploads
+img
+.jpg
+.gif
+.pdf
+.xls
+.xlxs
+
+
+
+
